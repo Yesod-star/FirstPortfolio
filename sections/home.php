@@ -8,7 +8,9 @@
             <h1>CODE.</h1>
             <h1>CREATE.</h1>
             <h1>INNOVATE.</h1>
-            <p>Ajudo pequenas empresas a se organizarem com tecnologia simples.</p>
+            <p data-i18n="home_subtitle">
+                Ajudo pequenas empresas a se organizarem com tecnologia simples.
+            </p>
         </div>
 
         <div class="right">

@@ -55,28 +55,39 @@
           </div>        
           <form id="fcf-form-id">
             <div class="fcf-form-group">
-                <label for="from_name" class="fcf-label">Your name:</label>
+                <label for="from_name" class="fcf-label" data-i18n="contact_name">
+                    Your name:
+                </label>
+
                 <div class="fcf-input-group">
                     <input type="text" id="from_name" name="from_name" class="fcf-form-control" required>
                 </div>
             </div>
         
             <div class="fcf-form-group">
-                <label for="to_name" class="fcf-label">Your's email:</label>
+                
+                <label for="to_name" class="fcf-label" data-i18n="contact_email">
+                    Your's email:
+                </label>
                 <div class="fcf-input-group">
                     <input type="text" id="to_name" name="to_name" class="fcf-form-control" required>
                 </div>
             </div>
         
             <div class="fcf-form-group">
-                <label for="message" class="fcf-label">Your message:</label>
+                
+                <label for="to_name" class="fcf-label" data-i18n="contact_email">
+                    Your's email:
+                </label>
                 <div class="fcf-input-group">
                     <textarea id="message" name="message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
                 </div>
             </div>
         
             <div class="fcf-form-group">
-                <button type="submit" id="fcf-button" class="button-submit"><span class="text-submit">SUBMIT</span></button>
+                <button type="submit" id="fcf-button" class="button-submit">
+                    <span class="text-submit" data-i18n="contact_submit">SUBMIT</span>
+                </button>
             </div>
         </form>
         

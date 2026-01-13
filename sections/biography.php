@@ -41,16 +41,19 @@
             <div class="partition area-3">
               <div class="visual">
                 <div class="wrapper">
-                  <h1> About me:</h1>
-                  <p>Gabriel Barros is a 21-year-old individual with a diverse background and a passion for technology.
-                    Education has played a significant role in his journey, culminating in a recent graduation 
-                    in computer science. With years of experience in IT both as a developer and as a support, he is 
-                    ready to help you with whatever you need. <br>
+                  <h1 data-i18n="about_title">About me:</h1>
+                    <p data-i18n-html="about_text">
+                        Gabriel Barros is a 21-year-old individual with a diverse background and a passion for technology.
+                        Education has played a significant role in his journey, culminating in a recent graduation 
+                        in computer science. With years of experience in IT both as a developer and as a support, he is 
+                        ready to help you with whatever you need. <br><br>
 
-                    <span>He studied both as a .NET dev focusing on backend and as a Angular frontend dev, working on both
-                    functions, he learned a lot and is developing new skills. He has also taught programming in the
-                    biggest technical school in Latin America. </span><br>
-                  </p>
+                        <span>
+                            He studied both as a .NET dev focusing on backend and as a Angular frontend dev, working on both
+                            functions, he learned a lot and is developing new skills. He has also taught programming in the
+                            biggest technical school in Latin America.
+                        </span>
+                    </p>
                 </div>
               </div>
             </div>

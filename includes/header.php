@@ -10,10 +10,12 @@
         </div>
 
         <ul class="nav-list">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#biography">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#home" data-i18n="home">HOME</a></li>
+            <li><a href="#projects" data-i18n="projects">PROJECTS</a></li>
+            <li><a href="#biography" data-i18n="about">ABOUT</a></li>
+            <li><a href="#contact" data-i18n="contact">CONTACT</a></li>
         </ul>
+
+        <button id="lang-toggle" class="lang-btn">EN</button>
     </nav>
 </header>

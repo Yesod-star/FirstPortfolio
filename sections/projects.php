@@ -43,7 +43,10 @@
                   <div class="wrapper">
                     <div class="banner-image"> </div>
                     <h1>C# Drone Library</h1>
-                    <p>This was a library developed to help programmer create project for VANT missions.</p>
+                    <p data-i18n="project_drone">
+                        This was a library developed to help programmer create project for VANT missions.
+                    </p>
+
                    </div>
                    <div class="button-wrapper"> 
                    <button class="btn outline"><a href="https://github.com/Yesod-star/CSharpDroneLib">DETAILS</a></button>
@@ -55,8 +58,11 @@
                   <div class="wrapper">
                     <div class="banner-image-2"> </div>
                     <h1>RPG Ultimate Bot</h1>
-                    <p>This project is a DsharpPlus bot with Lavalink to roll dices and play music
-                      for your tabletop campaign.</p>
+                    <p data-i18n="project_rpg">
+                        This project is a DsharpPlus bot with Lavalink to roll dices and play music
+                        for your tabletop campaign.
+                    </p>
+
                    </div>
                    <div class="button-wrapper"> 
                    <button class="btn outline"><a href="https://github.com/Yesod-star/RpgUltimateBot">DETAILS</a></button>
@@ -68,10 +74,15 @@
                   <div class="wrapper">
                     <div class="banner-image-3"> </div>
                     <h1>Simple Portfolio</h1>
-                    <p>This is a portfolio made with pure HTML,CSS and JS to display projects.</p>
+                    <p data-i18n="project_portfolio">
+                        This is a portfolio made with pure HTML,CSS and JS to display projects.
+                    </p>
+
                    </div>
                    <div class="button-wrapper"> 
-                   <button class="btn outline"><a href="https://github.com/Yesod-star/Portfolio">DETAILS</a></button>
+                   <button class="btn outline">
+                      <a href="https://github.com/Yesod-star/CSharpDroneLib" data-i18n="details">DETAILS</a>
+                    </button>
                    </div>
                   </div>
               </div>

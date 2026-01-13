@@ -5,7 +5,7 @@ header{
     display: flex;
     align-items: center;
     height: 12vh;
-    background-color: #FEE715FF;
+    background-color: #342af3;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     float: left;
     width: 95vw;
@@ -90,6 +90,22 @@ nav {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
+.lang-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.lang-btn:hover {
+    background: #fff;
+    border-radius: 20px;
+    color: #000;
+}
+
+
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
@@ -104,7 +120,7 @@ nav {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     width: 50vw;
     height: 92vh;
-    background: #FEE715FF;
+    background: #342af3;
     transition: transform 0.3s ease-in;
     letter-spacing: 3px;
     display: flex;
