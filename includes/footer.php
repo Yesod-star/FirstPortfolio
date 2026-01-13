@@ -17,5 +17,5 @@
 <a href="https://api.whatsapp.com/send?phone=5528999881802"
    target="_blank"
    id="whatsappLink">
-    <img class="whatsapp" src="/assets/media/img/whatsapp.png" alt="Contato pelo WhatsApp" />
+    <img class="whatsapp" src="/media/img/whatsapp.png" alt="Contato pelo WhatsApp" />
 </a>

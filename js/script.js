@@ -1,22 +1,36 @@
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const titleHeader = document.querySelector("#title-header");
 
-titleHeader.onmouseover = event =>{
+const FINAL_TEXT = "BARROSDEV";
+let interval = null;
+
+// Force final value
+titleHeader.dataset.value = FINAL_TEXT;
+
+titleHeader.addEventListener("mouseover", (event) => {
     let iterations = 0;
-    const interval = setInterval(() =>{
-        event.target.innerText = event.target.innerText.split("")
-        .map((letter,index)=>{
-            if(index < iterations){
-                return event.target.dataset.value[index];
-            }
-            return letters[Math.floor(Math.random()*26)]
-        })
-        .join("");
-        if(iterations >= 10) clearInterval(interval);
 
-        iterations += 1/2;
-    },50);
-}
+    clearInterval(interval);
 
-titleHeader.dispatchEvent(new Event('mouseover'));
+    interval = setInterval(() => {
+        event.target.textContent = FINAL_TEXT
+            .split("")
+            .map((letter, index) => {
+                if (index < iterations) {
+                    return FINAL_TEXT[index];
+                }
+                return letters[Math.floor(Math.random() * letters.length)];
+            })
+            .join("");
+
+        iterations += 0.5;
+
+        if (iterations >= FINAL_TEXT.length) {
+            clearInterval(interval);
+            event.target.textContent = FINAL_TEXT;
+        }
+    }, 50);
+});
+
+// Optional auto-trigger
+titleHeader.dispatchEvent(new Event("mouseover"));
