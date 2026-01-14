@@ -70,6 +70,11 @@ height: 100%;
 
 }
 
+.wrapper-text{
+    height: 100%;
+    width: 3%;
+}
+
 .banner-image, .banner-image-2, .banner-image-3 {
 background-position: center;
 background-size: cover;
@@ -149,11 +154,11 @@ transition: all .3s ease;
         margin-bottom: 20px;
     }
 
-    .wrapper h1{
+    .wrapper h1, .wrapper-text h1{
         font-size: 1em;
     }
 
-    .wrapper p{
+    .wrapper p, .wrapper-text p{
         font-size: 0.5em;
     }
 

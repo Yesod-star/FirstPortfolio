@@ -43,29 +43,30 @@ a:active { text-decoration: none; }
     align-items: center;
 }
 
-.text .wrapper {
+.text .wrapper-text {
     padding-left: 0.3em;
     padding-right: 0.3em;
     padding-top: 0.3em;
 }
 
-.text .wrapper .letter{
+.text .wrapper-text .letter{
     transition: ease-out 1s;
     transform: translateY(40%);
 }
-.text .wrapper .shadow {
+.text .wrapper-text .shadow {
     transform: scale(1, -1);
     color: #999;
     transition: ease-in 5s, ease-out 5s;
 }
 
-.text .wrapper:hover .letter {
+.text .wrapper-text:hover .letter {
     transform: translateY(-200%);
 }
-.text .wrapper:hover .shadow {
+.text .wrappe-textr:hover .shadow {
     opacity: 0;
     transform: translateY(200%);
 }
+
 @media (max-width: 600px) {
     .text {
         font-size: 2em !important;

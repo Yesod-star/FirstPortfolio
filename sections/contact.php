@@ -4,51 +4,51 @@
 
           <div id="fcf-form">
           <div class="text area-4">
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="S" class="letter">S</div>
               <div class="shadow">S</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="E" class="letter">E</div>
               <div class="shadow">E</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="N" class="letter">N</div>
               <div class="shadow">N</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="D" class="letter">D</div>
               <div class="shadow">D</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id=" " class="letter"> </div>
               <div class="shadow"> </div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="A" class="letter">A</div>
               <div class="shadow">A</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id=" " class="letter"> </div>
               <div class="shadow"> </div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="E" class="letter">E</div>
               <div class="shadow">E</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="M" class="letter">M</div>
               <div class="shadow">M</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="A" class="letter">A</div>
               <div class="shadow">A</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="I" class="letter">I</div>
               <div class="shadow">I</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="L" class="letter">L</div>
               <div class="shadow">L</div>
             </div>

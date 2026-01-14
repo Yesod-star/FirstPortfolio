@@ -4,35 +4,35 @@
           <div class="wave-reverse"></div>
 
           <div class="text area-2">
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="P" class="letter">P</div>
               <div class="shadow">P</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="R" class="letter">R</div>
               <div class="shadow">R</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="O" class="letter">O</div>
               <div class="shadow">O</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="J" class="letter">J</div>
               <div class="shadow">J</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="E" class="letter">E</div>
               <div class="shadow">E</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="C" class="letter">C</div>
               <div class="shadow">C</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="T" class="letter">T</div>
               <div class="shadow">T</div>
             </div>
-            <div class="wrapper">
+            <div class="wrapper-text">
               <div id="S" class="letter">S</div>
               <div class="shadow">S</div>
             </div>
