@@ -1,5 +1,5 @@
 <header>
-    <img class="logo header-logo" src="/media/img/LogoGabriel.png">
+    <img class="logo header-logo" alt="logo" src="/media/img/LogoGabriel.png">
     <h2 id="title-header" class="header">GABRIEL DEV</h2>
 
     <nav class="header">

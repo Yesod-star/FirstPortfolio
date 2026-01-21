@@ -60,7 +60,7 @@
             <div class="partition area-3">
               <div class="visual">
                 <div class="wrapper">
-                  <img src="media/img/me.png">
+                  <img src="media/img/me.png" alt="Foto do programador">
                 </div>
               </div>
             </div>

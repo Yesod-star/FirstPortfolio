@@ -76,7 +76,8 @@ const translations = {
         project_drone: "Biblioteca desenvolvida para auxiliar programadores na criação de projetos para missões com VANTs.",
         project_rpg: "Bot desenvolvido com DSharpPlus e Lavalink para rolar dados e tocar músicas em campanhas de RPG.",
         project_portfolio: "Portfólio criado com HTML, CSS e JavaScript puro para apresentação de projetos.",
-        details: "DETALHES"
+        details: "DETALHES",
+        contact_text: "MENSAGEM",
     },
 
     "en": {
@@ -86,6 +87,7 @@ const translations = {
         projects: "PROJECTS",
         about: "ABOUT",
         contact: "CONTACT",
+        contact_text: "MESSAGE",
 
         /* ===== HOME ===== */
         home_subtitle: "I help small businesses organize themselves using simple technology.",
